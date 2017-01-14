@@ -1,0 +1,42 @@
+<table class="table Usertable">
+    <tr>
+        <td><h3>Details for {{user.login}}</h3></td>
+        <td></td>
+    </tr>
+  
+    <tr>
+        <td>ID</td>
+        <td>{{user.idUser}}</td>
+    </tr>
+    <tr>
+        <td>Adresse</td>
+        <td>{{user.adress}}</td>
+    </tr>
+       <tr>
+        <td>Email</td>
+        <td>{{user.email}}</td>
+    </tr>
+    <tr>
+        <td>First Name</td>
+        <td>{{user.fName}}</td>
+    </tr>
+ 
+    <tr>
+        <td>Age</td>
+        <td>{{user.age}}</td>
+    </tr>
+    <tr>
+        <td>Login</td>
+        <td>{{user.login}}</td>
+    </tr>
+</table>
+<div>
+    <a class="btn btn-primary" ui-sref="editUser({id:user.idUser})">Edit</a>
+    
+     <a class="btn btn-primary" ui-sref="editState({id:user.idUser})">Enable</a>
+
+     <a class="btn btn-primary" ui-sref="editS({id:user.idUser})">Disable</a>
+    
+   
+    
+</div>
